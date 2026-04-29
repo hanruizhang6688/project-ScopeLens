@@ -2,8 +2,11 @@
 __pycache__/
 *.py[cod]
 .venv/
+
+# Environment files and secrets
 .env
 .env.*
+!.env.example
 
 # Streamlit
 .streamlit/secrets.toml
@@ -12,19 +15,3 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
-
-# Generated evaluation outputs
-/eval_results/*.csv
-
-# Python local files
-.venv/
-__pycache__/
-*.pyc
-
-# Environment files and secrets
-.env
-.env.*
-!.env.example
-
-# OS files
-.DS_Store
